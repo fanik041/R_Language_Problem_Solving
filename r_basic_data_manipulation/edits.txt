@@ -1,0 +1,15 @@
+
+#Edit set:
+
+
+#numerical rules
+Sepal.Length > 0       #x>0
+Sepal.Length <=30      #x<=30
+Sepal.Width > 0        #y>0
+Petal.Length > 0       #z>0
+Petal.Length >= 2*Petal.Width   #z>=2*w X
+Petal.Width > 0        #w>0X
+Sepal.Length > Petal.Length     #x>z
+
+# categorical rules
+Species %in% c("setosa","versicolor","virginica")
